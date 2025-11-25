@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مقالات ونصائح مفيدة للعناية بسيارتك - مركز الثقة والجوده لصيانة السيارات">
+    <title>المقالات - مركز الثقة والجوده لصيانة السيارات</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="articles-page">
+    <!-- Loading Screen -->
+    <div class="loading">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-car me-2"></i>مركز الثقة والجوده
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">الخدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="articles.html">المقالات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">تواصل معنا</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>المقالات والنصائح</h1>
+                    <p>نصائح ومعلومات مفيدة للعناية بسيارتك والحفاظ عليها</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Breadcrumb -->
+<section class="breadcrumb-section py-3">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                 <span class="me-1 ms-1"> /</span>
+                <li class="breadcrumb-item active">المقالات</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+    <!-- Articles Section -->
+    <section class="articles-section py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Main Articles -->
+                <div class="col-lg-8">
+                    <!-- Featured Article -->
+                    <div class="featured-article mb-5" data-aos="fade-up">
+                        <div class="article-card">
+                            <div class="article-img">
+                                <img src="https://images.unsplash.com/photo-1621135802920-133df287f89c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                                     alt="نصائح الصيانة">
+                            </div>
+                            <div class="article-content">
+                                <span class="badge bg-primary mb-2">مميز</span>
+                                <div class="article-meta">
+                                    <span><i class="far fa-calendar me-1"></i> 15 يونيو 2023</span>
+                                    <span><i class="far fa-clock me-1"></i> 5 دقائق قراءة</span>
+                                    <span><i class="far fa-eye me-1"></i> 1254 مشاهدة</span>
+                                </div>
+                                <h3>10 نصائح هامة لصيانة سيارتك وتجنب الأعطال المفاجئة</h3>
+                                <p>تعرف على أهم النصائح والإرشادات للحفاظ على سيارتك وتجنب الأعطال المفاجئة التي قد تكلفك الكثير من المال والوقت والجهد. في هذا المقال سنستعرض أفضل الممارسات للحفاظ على سيارتك...</p>
+                                <a href="articles-detail.html" class="read-more">اقرأ المزيد <i class="fas fa-arrow-left ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Articles Grid -->
+                    <div class="row">
+                        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <img src="https://images.unsplash.com/photo-1563720223480-8d84f8a071e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                                         alt="علامات تلف البطارية">
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-meta">
+                                        <span><i class="far fa-calendar me-1"></i> 8 يونيو 2023</span>
+                                        <span><i class="far fa-clock me-1"></i> 4 دقائق</span>
+                                    </div>
+                                    <h3>علامات تلف بطارية السيارة ومتى يجب تغييرها</h3>
+                                    <p>اكتشف العلامات والإشارات التي تشير إلى ضرورة تغيير بطارية سيارتك لتجنب التعطل المفاجئ في الطريق...</p>
+                                    <a href="articles-detail.html" class="read-more">اقرأ المزيد <i class="fas fa-arrow-left ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                                         alt="صيانة المكيف">
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-meta">
+                                        <span><i class="far fa-calendar me-1"></i> 1 يونيو 2023</span>
+                                        <span><i class="far fa-clock me-1"></i> 6 دقائق</span>
+                                    </div>
+                                    <h3>كيف تحافظ على مكيف سيارتك وتتجنب أعطاله في الصيف</h3>
+                                    <p>نصائح وإرشادات مهمة للحفاظ على كفاءة مكيف سيارتك وتجنب الأعطال خاصة في فصل الصيف...</p>
+                                    <a href="articles-detail.html" class="read-more">اقرأ المزيد <i class="fas fa-arrow-left ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <img src="https://images.unsplash.com/photo-1603712610494-8b6f245de1d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                                         alt="تغيير الزيوت">
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-meta">
+                                        <span><i class="far fa-calendar me-1"></i> 25 مايو 2023</span>
+                                        <span><i class="far fa-clock me-1"></i> 3 دقائق</span>
+                                    </div>
+                                    <h3>أهمية تغيير زيت المحرك في الوقت المناسب</h3>
+                                    <p>تعرف على المواعيد المناسبة لتغيير زيت المحرك وأهميته في الحفاظ على عمر المحرك...</p>
+                                    <a href="articles-detail.html" class="read-more">اقرأ المزيد <i class="fas fa-arrow-left ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                            <div class="article-card">
+                                <div class="article-img">
+                                    <img src="https://images.unsplash.com/photo-1563720223185-04f6c73c5fb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                                         alt="صيانة الإطارات">
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-meta">
+                                        <span><i class="far fa-calendar me-1"></i> 18 مايو 2023</span>
+                                        <span><i class="far fa-clock me-1"></i> 4 دقائق</span>
+                                    </div>
+                                    <h3>دليل شامل للعناية بإطارات سيارتك وفحصها</h3>
+                                    <p>كيف تحافظ على إطارات سيارتك وتتجنب المشاكل الناتجة عن الإطارات التالفة...</p>
+                                    <a href="articles-detail.html" class="read-more">اقرأ المزيد <i class="fas fa-arrow-left ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <nav aria-label="Page navigation" class="mt-5">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">السابق</a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">التالي</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Search -->
+                    <div class="sidebar-widget mb-4" data-aos="fade-left">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">بحث في المقالات</h5>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="اكتب كلمة البحث...">
+                                    <button class="btn btn-primary" type="button">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categories -->
+                    <div class="sidebar-widget mb-4" data-aos="fade-left" data-aos-delay="100">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">التصنيفات</h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        صيانة عامة
+                                        <span class="badge bg-primary rounded-pill">12</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        سمكرة ودهان
+                                        <span class="badge bg-primary rounded-pill">8</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        خدمات كهربائية
+                                        <span class="badge bg-primary rounded-pill">6</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        نصائح وإرشادات
+                                        <span class="badge bg-primary rounded-pill">15</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        العناية بالسيارة
+                                        <span class="badge bg-primary rounded-pill">10</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Popular Articles -->
+                    <div class="sidebar-widget mb-4" data-aos="fade-left" data-aos-delay="200">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">الأكثر قراءة</h5>
+                                <div class="popular-articles">
+                                    <div class="popular-article-item mb-3">
+                                        <h6><a href="#" class="text-dark">كيف توفر في استهلاك وقود سيارتك</a></h6>
+                                        <small class="text-muted"><i class="far fa-eye me-1"></i> 2154 مشاهدة</small>
+                                    </div>
+                                    <div class="popular-article-item mb-3">
+                                        <h6><a href="#" class="text-dark">أفضل أوقات تغيير زيت المحرك</a></h6>
+                                        <small class="text-muted"><i class="far fa-eye me-1"></i> 1890 مشاهدة</small>
+                                    </div>
+                                    <div class="popular-article-item mb-3">
+                                        <h6><a href="#" class="text-dark">علامات تلف فرامل السيارة</a></h6>
+                                        <small class="text-muted"><i class="far fa-eye me-1"></i> 1672 مشاهدة</small>
+                                    </div>
+                                    <div class="popular-article-item">
+                                        <h6><a href="#" class="text-dark">كيف تحافظ على مكيف سيارتك في الصيف</a></h6>
+                                        <small class="text-muted"><i class="far fa-eye me-1"></i> 1543 مشاهدة</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="sidebar-widget" data-aos="fade-left" data-aos-delay="300">
+                        <div class="card bg-primary text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">النشرة البريدية</h5>
+                                <p class="card-text">اشترك في نشرتنا البريدية لتصلك أحدث المقالات والنصائح</p>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="بريدك الإلكتروني">
+                                    <button class="btn btn-light" type="button">اشتراك</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container text-center">
+            <h2 class="mb-4">هل لديك استفسار عن صيانة سيارتك؟</h2>
+            <p class="mb-4">اتصل بنا الآن للحصول على استشارة مجانية من خبرائنا</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-light btn-lg me-3">اتصل بنا الآن</a>
+                <a href="tel:+966112345678" class="btn btn-outline-light btn-lg">اتصل هاتفياً</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+         <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <a href="index.html" class="footer-logo">
+                        <i class="fas fa-car me-2"></i>مركز الثقة والجوده
+                    </a>
+                    <p class="footer-about">نحن مركز متخصص في صيانة وسمكرة السيارات بجميع أنواعها، نقدم خدمات عالية الجودة بأسعار تنافسية. نتميز بفريق عمل محترف وأحدث التقنيات لضمان رضا عملائنا.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h4>روابط سريعة</h4>
+                        <ul>
+                            <li><a href="index.html">الرئيسية</a></li>
+                            <li><a href="services.html">الخدمات</a></li>
+                            <li><a href="about.html">من نحن</a></li>
+                            <li><a href="articles.html">المقالات</a></li>
+                            <li><a href="contact.html">تواصل معنا</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h4>خدماتنا</h4>
+                        <ul>
+                            <li><a href="services.html#maintenance">صيانة السيارات</a></li>
+                            <li><a href="services.html#bodywork">سمكرة السيارات</a></li>
+                            <li><a href="services.html#painting">دهان السيارات</a></li>
+                            <li><a href="services.html#electrical">الخدمات الكهربائية</a></li>
+                            <li><a href="services.html#oil-change">تغيير الزيوت</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h4>معلومات التواصل</h4>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt me-2"></i> شارع الملك فهد، الرياض</li>
+                            <li><i class="fas fa-phone me-2"></i> +966 11 123 4567</li>
+                            <li><i class="fas fa-envelope me-2"></i> info@alnokhba.com</li>
+                            <li><i class="fas fa-clock me-2"></i> السبت - الخميس: 8ص - 10م</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>جميع الحقوق محفوظة &copy; مركز الثقة والجوده لصيانة السيارات 2023</p>
+            </div>
+        </div>
+    </footer>
+    <!-- نفس الفوتر الموجود في index.html -->
+  <!-- WhatsApp Float -->
+    <a href="https://wa.me/966112345678" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
